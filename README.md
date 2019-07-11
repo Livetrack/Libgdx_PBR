@@ -7,3 +7,12 @@ Following Xoppa's tutorial https://xoppa.github.io/blog/creating-a-shader-with-l
 
 All the computation is done in the fragment shader. It can split in two main computations : Lambert model (Diffuse reflection) and GGX model (used for specular reflexion). Though, other model can be used instead of GGX : Cook-Torrance, Beckmann...
 
+
+Here are the results after playing with some coefficients.
+![picture](PBR.PNG)
+
+And with textures :
+
+![picture](PBR3.PNG)
+
+In the program, you can move the camera freely and use the arrows to change the point light position.
